@@ -119,7 +119,7 @@
     height: 100px;
   }
 
-  @media only screen and (max-height: 608px) {
+  @media only screen and (max-height: 361px) {
     .card {
       flex-direction: row-reverse;
     display: grid;
