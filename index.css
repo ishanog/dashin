@@ -41,6 +41,8 @@
   @media only screen and (max-height: 640px) {
     .card {
       flex-direction: row-reverse;
+      display: grid;
+      justify-items: center;
     }
     .card img.birthday {
       width: 100%;
