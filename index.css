@@ -118,3 +118,32 @@
   .space {
     height: 100px;
   }
+
+  @media only screen and (max-height: 608px) {
+    .card {
+      flex-direction: row-reverse;
+    display: grid;
+    justify-items: center;
+    }
+    .card img.birthday {
+      width: 100%;
+      max-width: 50vw;
+      max-height: unset;
+    }
+  }
+  
+  img.birthday {
+    max-height: 25vh;
+  }
+  
+  .text {
+    padding: 1em;
+  }
+  
+  .muted {
+    opacity: 0.8;
+  }
+  
+  .space {
+    height: 100px;
+  }
